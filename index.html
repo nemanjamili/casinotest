@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>VANILLA JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="author" content="Nemanja">
+    <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
+    <link rel="stylesheet" href="css.css">
+
+    <!-- responsive-full-background-image.css stylesheet contains the code you want -->
+    <link rel="stylesheet" href="responsive-full-background-image.css">
+
+
+</head>
+<body onresize="windowResize()">
+
+<!--
+<nav class="navbar" id="top">
+    <div class="inner">
+        <a href="http://sixrevisions.com/css/responsive-background-image/">Read Tutorial</a>
+    </div>
+</nav>
+-->
+
+<header class="container">
+    <section class="content">
+        <h1>Ellmount Test</h1>
+
+        <p></p>
+        <div style="z-index:2;">
+
+            <p><a class="button" id="first" onclick="first()" href="#top">Load some content</a></p>
+
+            <div id="second"></div>
+
+        </div>
+
+        <p></p>
+
+        <div style="z-index:-1; position:absolute; top:0; left:0">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <!-- <div style="position: relative;border: 1px solid white;height: 500px;">
+         </div>
+ -->
+
+        <div id="more-content" style="z-index:2;">
+            <blockquote>
+                <cite><a class="button" id="newquote" onclick="newquote()" href="#top">Load New content</a></cite>
+            </blockquote>
+            <blockquote id="blockquote">
+
+            </blockquote>
+        </div>
+    </section>
+</header>
+
+
+<script src="js/js.js" type="text/javascript"></script>
+<script src="js/hold.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# Use UTF-8 encoding for anything served as `text/html` or `text/plain`.
+AddDefaultCharset utf-8
+
+# Force UTF-8 for certain file formats.
+<IfModule mod_mime.c>
+    AddCharset utf-8 .atom .css .js .json .rss .vtt .webapp .xml
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+</IfModule>
+
+
+# ##############################################################################
+# # MOJ KOD                                                                    #
+# ##############################################################################
+
+RewriteRule ^([0-9a-zA-Z_-]+)/?$ /pages/newpage.html [NC,L]
+
