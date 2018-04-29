@@ -2,4 +2,5 @@
 .idea/
 composer.phar
 /vendor/
-
+mojipodaci.txt
+.idea/*
