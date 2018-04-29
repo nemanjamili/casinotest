@@ -354,7 +354,7 @@ colors[6] = '#f76cad';
 colors[7] = '#505083';
 colors[8] = '#113a7e';
 colors[9] = '#014050';
-colors[10] = '#ccf3ef';git
+colors[10] = '#ccf3ef';
 colors[11] = '#009437';
 colors[12] = '#8fb300';
 
